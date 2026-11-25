@@ -1,4 +1,6 @@
 import "./index.css";
+import { AshuNineStepsReel } from "./Ashuanimates/ninesteps/Episode";
+import { TOTAL as ASHU_NINESTEPS_TOTAL } from "./Ashuanimates/ninesteps/timing";
 import { Pitch as AstroRaagaPitch } from "./AstroRaaga/pitch/Pitch";
 import { TOTAL as AR_PITCH_TOTAL } from "./AstroRaaga/pitch/theme";
 import { PitchV4 as AstroRaagaPitchV4 } from "./AstroRaaga/pitch4/Pitch";
@@ -526,6 +528,9 @@ export const RemotionRoot: React.FC = () => {
       <Composition id="GuruTeghReel" component={GuruTeghReel} durationInFrames={GT_TOTAL} fps={30} width={1080} height={1920} defaultProps={{}} />
       {/* क्या होता अगर… Ep2 · शनि की टेढ़ी नज़र: the full reel */}
       <Composition id="KyaHotaEp2" component={KyaHotaEp2} durationInFrames={KQ2_TOTAL} fps={30} width={1080} height={1920} defaultProps={{}} />
+      {/* Ashuanimates pilot · The throne with nine steps */}
+      <Composition id="AshuNineStepsReel" component={AshuNineStepsReel} durationInFrames={ASHU_NINESTEPS_TOTAL} fps={30} width={1080} height={1920} defaultProps={{}} />
+      <Composition id="AshuNineStepsReelClean" component={AshuNineStepsReel} durationInFrames={ASHU_NINESTEPS_TOTAL} fps={30} width={1080} height={1920} defaultProps={{ showCaptions: false }} />
     </>
   );
 };

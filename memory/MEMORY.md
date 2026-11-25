@@ -32,3 +32,4 @@
 - [Sikh Gurpurab reels](jyotiq-sikh-gurpurab-reels.md) — no astrology feature; Guru Tegh Bahadur reel built 24 Nov in workspace/gurpurab-tegh-bahadur (faces shown by Ayush's choice, no captions, fight hook)
 - [Cosmic deity look](jyotiq-cosmic-deity-style.md) — galaxy+fire giant deity over tiny figure; Budhvar Ganesha/Budh carousel built 25 Nov in workspace/budhvar-ganesh-carousel
 - [Devin takeover checks](devin-takeover-checks.md) — 25 Nov handover verified: tools ok, EL key set, ADC ok, ledger ₹19,670/₹22,000, 14 legacy tsc errors, FrameJam MCP not yet configured
+- [Ashuanimates nine-steps pilot](ashuanimates-nine-steps.md) — @ashuanimates exception: no Jyotiq chrome; Edge TTS fallback because cloud secrets were absent; source in video/src/Ashuanimates/ninesteps
