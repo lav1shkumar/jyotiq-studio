@@ -1,0 +1,34 @@
+- [Jyotiq video work](jyotiq-video-work.md) — reels in Remotion under ~/.kiro/crew/workspace; use the jyotiq-reels skill
+- [Jyotiq investor film](jyotiq-investor-film.md) — storyboard stage since 2026-11-05; unresolved facts, no invented numbers on screen
+- [Free AI video route](free-ai-video-route.md) — hf-video skill (free HF Spaces) is the default for AI footage; Runway key was empty
+- [Veo on Vertex AI](veo-vertex-route.md) — paid Veo 3.1 works via gcloud ADC; API keys blocked on the project; ask before spending
+- [ElevenLabs credits](elevenlabs-save-credits.md) — minimal credit use: free checks first, shortest text, one take, ask before retakes
+- [Diwali story series](jyotiq-diwali-story-series.md) — d3 Veo, d4 collage, d5 Bhai Dooj built 9 Nov (comic cut-outs, no Veo); disk-safe render settings
+- [Karmeq: concepts, not builds](karmeq-concepts-not-builds.md) — give Ayush concepts he can produce himself; 30 s is about 60 Hindi words
+- [Karmeq brand and series](karmeq-brand-and-series.md) — real logo is cream/maroon/green, navy/gold is a draft; "एक पन्ना" Ep 1 is in workspace/karmeq-ekpanna-ep1
+- [Father-Trail English reel](jyotiq-father-trail-reel.md) — global ink-wash folktale reel in workspace/father-trail; reusable Veo + English pipeline
+- [Myth script skill](jyotiq-myth-script-skill.md) — mythology reels: script-only skill first; production only on explicit request
+- [Ram Rajyabhishek reel](jyotiq-ram-rajyabhishek-reel.md) — Kilavde6 TV-serial look; photographic stills + Veo + ffmpeg; Ayush M narrator
+- [Ramanuja mantra reel](jyotiq-ramanuja-mantra-reel.md) — comic-style reel in workspace/ramanuja-mantra; reel rendered 10 Nov; reusable comic-reel pipeline
+- [Jyotiq static posts](jyotiq-static-posts.md) — image posts/carousels: Vertex stills + HTML build.py + CAPTION.md; Hanuman 4-neech post 10 Nov; Surya arghya carousel 12 Nov; Bal Shani carousel 13 Nov; Chhathi Maiya painting carousel 13 Nov; Vrishchik Sankranti carousel 16 Nov; Dev Uthani/Tulsi Vivah post 16 Nov; Gopashtami post 17 Nov; Bhishma seekh carousel (3 type variants) 18 Nov; Dev Deepawali carousel 23 Nov; Tegh Bahadur clean+text carousels 24 Nov; Guru Nanak pothi-text carousel 24 Nov — logo = app zodiac-wheel logo
+- [Scriptural character designs](jyotiq-scriptural-character-designs.md) — Ram/Sita etc. from Valmiki, not TV look; Ayush makes avatars himself, no GCP
+- [Jyotiq feature endings](jyotiq-feature-endings.md) — every reel ends on ONE app feature fitted to the story; rotate via jyotiq-marketing/FEATURE-LOG.md
+- [Reel layout: site look + app panel](jyotiq-reel-layout-site-look.md) — from 12 Nov every reel: jyotiq.ai look, fixed top-right app-download panel, brand bug, "Jyotiq presents" hook; kit in navagraha/ep1/look.tsx; from 24 Nov the logo is the zodiac-wheel logo (logo-zodiac.png)
+- [Navagraha Ep1 build](navagraha-ep1-build.md) — v2 rendered 13 Nov (series intro, Kaal + Surya voices, intense pulse score); voice/timing/score/disk-safe render pipeline
+- [Navagraha Ep2 build](navagraha-ep2-build.md) — Shani ep rendered 13 Nov on the Ep1 v2 kit; recipe for building the next episode; Shiva look
+- [Kya Hota Agar Ep2 build](kyahota-ep2-shani-build.md) — Shani what-if reel rendered 14 Nov on the Navagraha kit; namaste IK pose, set-pan seam fix; Ep1 is script-only
+- [Chhathi Maiya reel](jyotiq-chhathi-maiya-reel.md) — 80 s Manthan-rig katha rendered 14 Nov; designed voices, per-scene music cues, auto-ducking mix.py
+- [AstroRaaga pitch film](astroraaga-pitch-film.md) — mela pitch film; v4 17 Nov; v5 $1M 18 Nov; v6 20 Nov = 14-slide order, third-person, pitch6 code; v7 21 Nov = revision plan, pitch7; v8 22 Nov = content engine, 2027–29, no planet names, pitch8
+- [Painted deity style](jyotiq-painted-deity-style.md) — house look for deity images from 14 Nov; STYLE block + navagraha locks in jyotiq-marketing/PAINTED-DEITY-STYLE.md
+- [Tulsi Vivah reel](jyotiq-tulsi-vivah-reel.md) — 16 Nov, Sade Sati cosmic look via Vertex stills + Veo; brand open front, phone ending; reusable recipe
+- [Aesthetic music reels](jyotiq-aesthetic-music-reels.md) — no-VO pastel deity edits from the 3 reference reels; Narasimha reel rendered 17 Nov; recipe + pick only stories not yet made
+- [Mahabharat series](jyotiq-mahabharat-series.md) — titled "भारत · BHARATA Episode N"; Manthan-format series started 18 Nov; Bhishma spine; Ep6 Bhishma vs Parashurama rendered 25 Nov, Manthan-style captions (Ekalavya → Ep7)
+- [Bharata Ep1-3 build](bharata-ep1-build.md) — भारत Ep1 (18 Nov), Ep2 भीष्म प्रतिज्ञा (19 Nov), Ep3 अंबा का श्राप (20 Nov), Ep4 तीन राजकुमार (21 Nov, dialogue-led ~92 s) reels; designed voices, keyframed motion, no app panel, no GCP
+- [Store screenshots](jyotiq-store-screenshots.md) — Play + App Store listing images (8 slides, all sizes) built 18 Nov in workspace/jyotiq-store-screenshots; APK flutter_assets has fonts/art
+- [Puranikathaye look + playbook](jyotiq-puranikathaye-stage-look.md) — Kilavde7 ref + director playbook (Mode A); Kumbhakarna–Indra Ep1 package 19 Nov; flags founder TV-look rule
+- [Kumbhakarna Ep1 build](kumbhakarna-ep1-build.md) — Mode A Puranikathaye-look episode rendered 19 Nov; Aarush narrator; look_qa/grade/earshot QA loop; ledger ₹19,545
+- [Calendar-art carousel look](jyotiq-calendar-art-style.md) — houseofuday-style canvas calendar art; Nala-Damayanti Astra prompts 19 Nov
+- [Reel wording check](reel-wording-third-person-check.md) — re-read every Hindi line as an outside viewer before voicing; Ep3 "मन शाल्व पर था" fix
+- [Sikh Gurpurab reels](jyotiq-sikh-gurpurab-reels.md) — no astrology feature; Guru Tegh Bahadur reel built 24 Nov in workspace/gurpurab-tegh-bahadur (faces shown by Ayush's choice, no captions, fight hook)
+- [Cosmic deity look](jyotiq-cosmic-deity-style.md) — galaxy+fire giant deity over tiny figure; Budhvar Ganesha/Budh carousel built 25 Nov in workspace/budhvar-ganesh-carousel
+- [Devin takeover checks](devin-takeover-checks.md) — 25 Nov handover verified: tools ok, EL key set, ADC ok, ledger ₹19,670/₹22,000, 14 legacy tsc errors, FrameJam MCP not yet configured

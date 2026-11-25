@@ -1,0 +1,78 @@
+// PLACEHOLDER timing estimated from the script (diwali_d4_audio.py --placeholder); re-run without it once the takes are in.
+export const FPS = 30;
+export const TOTAL = 1814;
+export type Range = readonly [number, number];
+/** Dialogue take -> [start, end) frames on the reel clock. */
+export const LINES: Record<string, Range> = {
+  "01_narrator": [4, 230],
+  "02_narrator": [246, 503],
+  "03_narrator": [506, 642],
+  "04_narrator": [645, 841],
+  "05_krishna": [845, 1041],
+  "06_narrator": [1044, 1301],
+  "07_narrator": [1304, 1470],
+  "08_narrator": [1483, 1709],
+  "jyotiq_signoff": [1713, 1804],
+};
+/** Silent picture beats. */
+export const BEATS: Record<string, Range> = {
+  title: [234, 244],
+  glow: [1470, 1480],
+  hold: [1804, 1814],
+};
+export const SCENES: Record<string, Range> = {
+  hook: [0, 234],
+  title: [234, 246],
+  gokul: [246, 503],
+  storm: [503, 642],
+  lift: [642, 842],
+  krishna: [842, 1041],
+  annakoot: [1041, 1302],
+  gochar: [1302, 1480],
+  app: [1480, 1713],
+  end: [1713, 1814],
+};
+export const CUES: Record<string, number> = {
+  sabzi01: 49,
+  kyon01: 95,
+  jawab01: 140,
+  pahad01: 170,
+  rewind: 226,
+  titleHit: 238,
+  gokul02: 246,
+  indra02: 276,
+  krishna02: 337,
+  parvat02: 397,
+  palta02: 472,
+  indra03: 506,
+  krodh03: 521,
+  saat03: 551,
+  toofan03: 627,
+  ungli04: 690,
+  govardhan04: 736,
+  cap04b: 781,
+  gaon04: 796,
+  krishna05: 845,
+  daro05: 845,
+  prakriti05: 890,
+  cap05b: 966,
+  raksha05: 996,
+  kehte06: 1044,
+  pahad06: 1104,
+  mila06: 1180,
+  cap06b: 1255,
+  annakoot06: 1286,
+  jyotish07: 1304,
+  badlav07: 1364,
+  gochar07: 1440,
+  glow: 1470,
+  shani08: 1483,
+  rahu08: 1498,
+  guru08: 1513,
+  gochar08: 1604,
+  free08: 1619,
+  cap08b: 1649,
+  signoff: 1713,
+  offer: 1758,
+  brandChime: 1806,
+};

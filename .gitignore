@@ -1,0 +1,21 @@
+node_modules/
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+# renders and heavy working files: never commit, send finished reels back as release assets
+video/out/
+video/work/
+video/build/
+**/render/
+**/review/
+**/tmp/
+*.mov
+# per-episode heavy media (keep scripts/boards/captions in git)
+episodes/*/audio/takes/
+episodes/*/frames/
+# secrets
+.env
+*.pem
+*-sa.json
+.gcp-sa.json
